@@ -14,7 +14,7 @@ public class Welcome {
 
     @GetMapping("/thymeleaf")
     public String showThymeleafPage() {
-        return "index"; // Refers to index.html in the templates folder
+        return "index"; 
     }
 
     
